@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Site Interativo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <button id="theme-toggle">Alternar Modo Escuro</button>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Contador Interativo</h2>
+            <p>Clique nos botões abaixo para ver o JavaScript em ação.</p>
+            <div class="counter-value" id="counter">0</div>
+            <div class="button-group">
+                <button id="btn-decrease">Diminuir</button>
+                <button id="btn-increase">Aumentar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Criado com HTML, CSS e JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
